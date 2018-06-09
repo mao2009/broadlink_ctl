@@ -69,7 +69,7 @@ def select_device(ip, mac, port='80', type_='10039'):
 
 def format_hex(s):
     formatted = ''
-    for c in s:
+    for c in bytearray(s):
         formatted += format(c, '02x')
     return formatted
 
