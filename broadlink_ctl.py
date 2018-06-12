@@ -22,9 +22,9 @@ def parse_option():
     2.Make device configure, use -m or --make_device option
       ex:broalink_ctl.py -m -d myroom
     3.Learn IR data, use -l or --learn  option and -c or --command option
-      ex:broadlink_cli.py -l -d myroom -c right_on
+      ex:broadlink_cli.py -l -d myroom -c light_on
     4.Send IR data, use -s or --send option and -c or --command option
-      ex:broadlink_cli.py -s -d myroom -c right_on
+      ex:broadlink_cli.py -s -d myroom -c light_on
     '''
 
     parser = ArgumentParser(usage)
