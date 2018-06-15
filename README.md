@@ -5,7 +5,7 @@ A simple  controller for Broadlink IR device
 + Manually connect for broadlink device to wifi
 + pip install broadlink
 + Download Broadlink Controller 
-+　git clone https://github.com/mao2009/broadlink_ctl.git　　
++ git clone https://github.com/mao2009/broadlink_ctl.git　　
 + Or download Zip and Unzip
    https://github.com/mao2009/broadlink_ctl/archive/v0.1.zip
   
