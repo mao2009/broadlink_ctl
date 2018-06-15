@@ -10,7 +10,7 @@ A simple  controller for Broadlink IR device
    https://github.com/mao2009/broadlink_ctl/archive/v0.1.zip
   
   
- #Using
+ ## Using
  + Make a Device File    
       + Use -m or --make_device option, -d option is device file name
       + ex:) ./broadlink.py -m -d myroom
