@@ -16,7 +16,7 @@ A simple  controller for Broadlink IR device
       + ex:) ./broadlink.py -m -d myroom
       
  + Learn a command IR data
-      + Use -l or --lean option, -c option is command name
+      + Use -l or --learn option, -c option is command name
       + ex:) ./broadlink.py -l -d myroom -c light_on
       + Then send IR data to Broadlink device from your remote controller 
  
