@@ -87,7 +87,8 @@ def show_device_info(device, device_number):
 def ask_overwrite(path):
     if os.path.exists(path):
         while True:
-            response = input('File already exists,do you overwrite?(y/n):').lower()
+            response = input('File already exists,do you overwrite?(y/n):')
+            response = response.lower()
             if response == 'y' or response == 'yes':
                 return True
             elif response == 'n' or response == 'no':
