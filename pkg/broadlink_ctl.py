@@ -87,8 +87,7 @@ def show_device_info(device, device_number):
 def ask_overwrite(path):
     if os.path.exists(path):
         while True:
-            response = input(r'File already exists,do you overwrite?(y/n):')
-            response = response.lower()
+            response = raw_input('File already exists,do you overwrite?(y/n):').lower()
             if response == 'y' or response == 'yes':
                 return True
             elif response == 'n' or response == 'no':
@@ -197,7 +196,7 @@ def setup():
     print('Press security mode (0 = none, 1 = WEP, 2 = WPA1, 3 = WPA2, 4 = WPA1/2)')
     print('Default:3')
 
-    security = input('Security mode:').lower()
+    security = raw_input('Security mode:').lower()
 
     if security == 'none':
         security = 0
@@ -213,9 +212,9 @@ def setup():
     if not(0 <= security <= 4):
         raise IndexError
 
-    ssid = input('SSID of your router :')
+    ssid = raw_input('SSID of your router :')
     if security != 0:
-        password = input('Password:')
+        password = raw_input('Password:')
     else:
         password = ''
     broadlink.setup(ssid, password, security)
