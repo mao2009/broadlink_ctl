@@ -6,7 +6,7 @@ if sys.version_info.major == 2:
     requires.append('configparser')
 setup(
     name='rmctl',
-    version='0.1.1dev2',
+    version='0.1.1',
     packages={'pkg'},
     install_requires=requires,
     entry_points={
