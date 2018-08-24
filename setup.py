@@ -6,17 +6,18 @@ if sys.version_info.major == 2:
     requires.append('configparser')
 setup(
     name='rmctl',
-    version='0.1.1',
+    version='0.1.1dev2',
     packages={'pkg'},
     install_requires=requires,
     entry_points={
         'console_scripts': [
-            'rmctl = pkg.broadlink_ctl:main',
+            'rmctl = pkg.rmctl:main',
         ],
     },
     url='',
-    license='',
+    license='BSD',
     author='mao2009',
-    author_email='',
-    description='Simple cli client for broadlink'
+    description='Simple cli client for broadlink',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown'
 )

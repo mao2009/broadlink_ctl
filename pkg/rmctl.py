@@ -16,7 +16,7 @@ def main():
 
 def parse_option():
     usage = '''
-    broadlink_ctl.py [options]
+    rmctl.py [options]
     
     1.Manually connect the Broadlink device to Wifi
     2.Make device configure, use -m or --make_device option
