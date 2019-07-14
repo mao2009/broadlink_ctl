@@ -2,4 +2,4 @@
 broadlink==0.9
 configparser==3.5.0; python_version < '3.0'
 pycrc==1.21
-pycryptodome==3.4.11
+pycryptodome==3.6.6
